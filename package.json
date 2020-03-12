@@ -1,0 +1,10 @@
+{
+  "name": "Ocean_XR",
+  "version": "1.0.0",
+  "description": "XR ocean exprience",
+  "main": "index.html",
+  "repository": "https://github.com/Dbald/ocean_aframe.git",
+  "author": "Devin Baldwin",
+  "license": "MIT",
+  "private": null
+}
