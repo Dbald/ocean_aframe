@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.3/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+    <meta property="og:model:scale" content="1" />
+    <meta property="og:model:type" content="model/gltf+json" />
+    <meta aframe-injected name="mobile-web-app-capable" content="yes" />
+  
+  </head>
+  <body>
+    <a-scene>
+      <a-assets>
+        <a-asset-item id="shark" src="./assets/great_white_shark/scene.gltf">
+        </a-assets>
+      <a-entity animation-mixer gltf-model="#shark" position="0 1.6 0"></a-entity>
+    </a-scene>
+  </body>
+</html>
